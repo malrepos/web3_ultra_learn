@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: green;
+    font: 1em sans-serif;
+}
+
+#time {
+    padding: 30px 30px;
+}
+
+li {
+    text-align: center;
+}
+
