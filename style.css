@@ -1,14 +1,68 @@
 body {
     text-align: center;
-    background-color: green;
+    background-color: grey;
     font: 1em sans-serif;
+    color: brown;
+    font-weight: lighter;
+    font-size: 25px;
+}
+#foot {
+    margin-bottom: 50px;
+
 }
 
 #time {
     padding: 30px 30px;
+    width: 700px;
 }
 
-li {
-    text-align: center;
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.email {
+    width: 300px;
+    height: 30px;
+    border: 0.5px solid rgb(50, 48, 52);
+
+    
+}
+.email-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(50, 48, 52);
+
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(50, 48, 52);
+}
+
+#connect {
+    margin-top: 70px;
+}
+.beginner-list {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    padding: 50px;
+    border: 2px solid rgb(50, 48, 52);
+    border-radius: 20px;
+
+}
+.intermediate-list {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
+    padding: 30px;
+    border: 2px solid rgb(50, 48, 52);
+    border-radius: 20px;
+
 }
 
