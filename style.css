@@ -1,130 +1,113 @@
 body {
-    text-align: center;
-    background-image: url("images/nenad-novakovic-L2QB-rG5NM0-unsplash.jpg");
-    background-size: cover;
-    font-family: 'Special Elite', cursive;
+  text-align: center;
+  background-color: #051622;
+  background-size: cover;
+  font-family: "Special Elite", cursive;
+  color: #deb992;
 }
 #call {
-    text-shadow: 0px 0px 4px black;
-    color: whitesmoke;
-    font-size: 40px;
+  font-size: 40px;
 }
-.btn {
-    border-radius: 10px;
-    width: 60px;
-    height: 30px;
-    padding: auto;
-    border: none;
-    font-family: 'Special Elite', cursive;;
-}
+
 .heading {
-    text-align: center;
-    margin-top: 80px;
-
+  text-align: center;
+  margin-top: 80px;
 }
-
-
 
 #nav-bar {
-    display: flex;
-    justify-content: center;
-    padding: 10px
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
-
-/* p {
-    margin: 0 400px;
-    padding: 50px;
-} */
-
 .btn {
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
-    border: 1px solid rgb(50, 48, 52);
-    margin-left: 10px;
-    margin-right: 10px;
+  width: 150px;
+  height: 70px;
+  border-radius: 150px;
+  border: 1px solid rgb(50, 48, 52);
+  margin: 70px 40px;
+  font-family: "Special Elite", cursive;
+  color: #1ba098;
+  background-color: #deb992;
+  font-size: 20px;
 }
 
 #connect {
-    margin-top: 70px;
-}
-.beginner-list {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: green;
-    padding: 50px;
-    border: 2px solid rgb(50, 48, 52);
-    border-radius: 20px;
-
-}
-.intermediate-list {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightpink;
-    padding: 30px;
-    border: 2px solid rgb(50, 48, 52);
-    border-radius: 20px;
-
-}
-.description{
-    font-size: 25px;
-    font: 1em sans-serif;
+  margin-top: 70px;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 1;
-    /* background: #111; */
-    height: 50px;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  height: 50px;
+  width: 100vw;
+  padding-top: 40px;
+  /* color: #fff; */
 }
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  line-height: 3rem;
 }
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
 }
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3em 0;
-    padding: 20px;
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3em 0;
+  padding: 20px;
 }
-.socials li{
-    margin: 0 10px;
+.socials li {
+  margin: 0 10px;
 }
-.socials a{
-    text-decoration: none;
-    color: #fff;
+.socials a {
+  text-decoration: none;
+  color: #fff;
 }
-.socials a i{
-    font-size: 1.1rem;
+.socials a i {
+  font-size: 1.1rem;
 }
 .socials a:hover i {
-    color: aqua;
+  color: aqua;
 }
 
+a:link {
+  color: #1ba098;
+  background-color: none;
+  text-decoration: none;
+}
 
+a:visited {
+  color: #1ba098;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
