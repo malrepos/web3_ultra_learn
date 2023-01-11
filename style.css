@@ -111,11 +111,3 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-.solidity-stack {
-  padding: 30px;
-  font-size: 20px;
-  text-align: center;
-}
-.solidity-stack li {
-  padding: 10px;
-}
